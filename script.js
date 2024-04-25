@@ -20,20 +20,24 @@ let shortAnimes = [
 let imageContainer=document.querySelector("#imageContainer");
 // Submit Button 
 let submitButton = document.querySelector("button");
-submitButton.addEventListener("click", function() {});
+submitButton.addEventListener("click", function() {
 let span= document.querySelector(".span").value;
 console.log("hello");
+let list;
+if (span==="Long"){";"}
+else if (span==="Mid"){";"}
+else if(span==="short"){";"}
+});
 
 
 
 
 
 
-// let image;
-// // 3. Selecting the imageUrls array, create a forEach loop.
-// imageUrls.forEach(function(i){
-//     image = document.createElement("img");
-//     image.src = i;
-//     imageContainer.appendChild(image);
+// 3. Selecting the imageUrls array, create a forEach loop.
+list.forEach(function(i){
+    image = document.createElement("img");
+    image.src = i;
+    imageContainer.appendChild(image);
 
-// });
+});
