@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #e0f7fa;
+    background-color:black;
     /* Light cyan */
     text-align: center;
     margin: 0;
@@ -11,18 +11,18 @@ h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 48px;
     /* Larger font size for headings */
-    color: #00796b;
+    color: white;
     /* Teal */
     margin-bottom: 30px;
 }
 
-img.pop-icon {
+img.crunch-icon {
     width: 150px;
     margin: 20px auto;
 }
 
 p {
-    color: #004d40;
+    color: white;
     /* Darker teal for contrast */
     margin: 10px 0;
 }
@@ -39,15 +39,15 @@ button {
 }
 
 input {
-    border: 2px solid #00796b;
+    border: 2px solid 	#FF7518;
     /* Teal border for inputs */
     width: 60%;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 2px 4px rgba(216, 146, 146, 0.1);
     /* Inner shadow for depth */
 }
 
 button {
-    background-color: #ff5722;
+    background-color: #ff7322;
     /* Bright orange */
     color: white;
     border: none;
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #e64a19;
+    background-color: #ff7300;
     /* Darker orange for hover effect */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     /* Deeper shadow for hover effect */
@@ -68,6 +68,6 @@ button:hover {
 div.content {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 2px dashed #00796b;
+    border-top: 2px dashed #ff7322;
     /* Teal dashed border for separation */
 }
