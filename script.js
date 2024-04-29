@@ -28,7 +28,7 @@ let submitButton = document.querySelector("button");
 submitButton.addEventListener("click", function() {
 let span= document.querySelector(".span").value;
 
-let list;
+
 
 if (span === "Long")
 {
@@ -37,14 +37,26 @@ if (span === "Long")
 }
 else if (span==="Mid")
 
-{list=midAnimes;
+{list=midAnimes; 
 
 
 }
 else if(span==="Short")
 
-{list=shortAnimes;};
-console.log(span)
+{list=shortAnimes;
+
+}
+
+
+
+
+let anime;
+list.forEach(function(a){
+    anime = document.createElement("img");
+    anime.src = a;
+    imageContainer.appendChild(anime);
+
+});
 
 });
 
@@ -54,10 +66,3 @@ console.log(span)
 
 
 // 3. Selecting the imageUrls array, create a forEach loop.
-let anime;
-list.forEach(function(a){
-    anime = document.createElement("img");
-    anime.src = a;
-    imageContainer.appendChild(anime);
-
-});
