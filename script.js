@@ -16,17 +16,36 @@ let shortAnimes = [
 "https://m.media-amazon.com/images/M/MV5BMmIxNWFjYzgtM2NkMy00NTdkLWE4ZTEtMmY3NzU2MjA5MjAxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
 "https://m.media-amazon.com/images/M/MV5BMjdiMTAzZjItMWQ3MS00Y2FiLWFkOTYtZmQ1MTE1YzJjOGRhXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
 ];
+
+let list;
+
 // Make sure to declare your HTML elements as variables! 
 let imageContainer=document.querySelector("#imageContainer");
 // Submit Button 
 let submitButton = document.querySelector("button");
+
+
 submitButton.addEventListener("click", function() {
 let span= document.querySelector(".span").value;
-console.log("hello");
+
 let list;
-if (span==="Long"){";"}
-else if (span==="Mid"){";"}
-else if(span==="short"){";"}
+
+if (span === "Long")
+{
+        list = longAnimes;
+        console.log(span);
+}
+else if (span==="Mid")
+
+{list=midAnimes;
+
+
+}
+else if(span==="Short")
+
+{list=shortAnimes;};
+console.log(span)
+
 });
 
 
@@ -35,9 +54,10 @@ else if(span==="short"){";"}
 
 
 // 3. Selecting the imageUrls array, create a forEach loop.
-list.forEach(function(i){
-    image = document.createElement("img");
-    image.src = i;
-    imageContainer.appendChild(image);
+let anime;
+list.forEach(function(a){
+    anime = document.createElement("img");
+    anime.src = a;
+    imageContainer.appendChild(anime);
 
 });
