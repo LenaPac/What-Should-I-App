@@ -32,6 +32,7 @@ let span= document.querySelector(".span").value;
 
 if (span === "Long")
 {
+   .innerHTML
         list = longAnimes;
         console.log(span);
 }
