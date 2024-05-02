@@ -32,19 +32,21 @@ let span= document.querySelector(".span").value;
 
 if (span === "Long")
 {
-   .innerHTML
+   imageContainer.innerHTML="";
         list = longAnimes;
         console.log(span);
 }
 else if (span==="Mid")
 
-{list=midAnimes; 
+{imageContainer.innerHTML="";
+    list=midAnimes; 
 
 
 }
 else if(span==="Short")
 
-{list=shortAnimes;
+{imageContainer.innerHTML="";
+    list=shortAnimes;
 
 }
 
