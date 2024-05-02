@@ -1,10 +1,10 @@
 // Declare your arrays here
 let longAnimes = [
-"Myhero.jpg",
-"OnePiece.jpg",
-"HunterXHunter.jpg",
+"MHA.jpg", 
+"OP.jpg",
+"HXH.jpg",
 ];
-
+// photos are 600x1000
 let midAnimes = [
 "FruitsBasket.jpg",
 "Horimiya.jpg",
