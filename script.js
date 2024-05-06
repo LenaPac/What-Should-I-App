@@ -6,14 +6,14 @@ let longAnimes = [
 ];
 // photos are 600x1000
 let midAnimes = [
-"FruitsBasket.jpg",
-"Horimiya.jpg",
-"SoulEater.jpg",];
+"FB.jpg",
+"Hori.jpg",
+"FF.jpg",];
 
 let shortAnimes = [
-"Mydressup.jpg",
-"Asign.jpg",
-"SK8.jpg",
+"MDD.jpg",
+"ASF.jpg",
+"S8.jpg",
 ];
 
 let list;
